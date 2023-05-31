@@ -9,7 +9,7 @@ function MyProject() {
   return (
     <div className="App">
       <header>
-        <HamburgerNavigation pagename="myprojectPage"/>
+        <HamburgerNavigation pagename="myprojectPage" />
       </header>
       <article>
         <h1
@@ -24,8 +24,20 @@ function MyProject() {
           MyProject
         </h1>
       </article>
-      <div className="Myprocon"> <MyProjectCard name="Mood Brian" img="\Project1.png" link="https://mood-tone.vercel.app/"/> <MyProjectCard name="Todo list" img="\Project2.png" link="https://todolisttest-tau.vercel.app/"/> <MyProjectCard /> <MyProjectCard /></div>
-      <h3 style={{paddingBottom:"100%"}}> </h3>
+      <div className="Myprocon">
+        {" "}
+        <MyProjectCard
+          name="Mood Brian"
+          img="\Project1.png"
+          link="https://mood-tone.vercel.app/"
+        />{" "}
+        <MyProjectCard
+          name="Todo list"
+          img="\Project2.png"
+          link="https://todolisttest-tau.vercel.app/"
+        />{" "}
+      </div>
+      <h3 style={{ paddingBottom: "100%" }}> </h3>
     </div>
   );
 }
