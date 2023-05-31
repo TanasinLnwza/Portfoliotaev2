@@ -1,0 +1,29 @@
+.Navbarcon {
+  height: 0vh;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+.Navitem {
+  border-radius: 16px 16px 0px 0px;
+   padding-left: 200px;
+   padding-right: 200px;
+}
+
+.Navitem:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  
+}
+.active {
+  background-color: rgba(0, 0, 0, 0.2);
+  
+}
+
+.Logocon {
+  display: flex;
+  color: aliceblue;
+  padding: 40px;
+  justify-content: left;
+}

@@ -1,0 +1,27 @@
+h3{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+
+.Myprocon{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+.Myproitem{
+    border: 4px solid #606f99;;
+    border-radius: 12px;
+    background-color: azure;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 3px 5px 13px 11px rgba(19, 19, 19, 0.63);
+}
+.Myproitem:hover{
+    border: 4px solid #373f55;
+}
