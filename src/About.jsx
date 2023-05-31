@@ -36,7 +36,7 @@ function About() {
       <div className="Atext">Date of birth : 18/05/2001 </div>
       <div className="Atext">Height : 161 cm.</div>
       <div className="Atext">Weight : 50 kg.</div>
-      <div className="Atext">My favourite Game : Ragnarog, Minecraft, Stardew Valley, Rov </div>
+      <div className="Atext">My favourite Game : Ragnarok, Minecraft, Stardew Valley, Rov </div>
       <div className="Atext">My favourite Color : Black, BlueOcean, Green </div>
       <h2
         style={{
