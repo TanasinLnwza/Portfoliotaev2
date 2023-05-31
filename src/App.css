@@ -2,6 +2,7 @@
   background-color: #282c34;
   height: 100%;
   width: 100%;
+  font-family: 'Righteous', sans-serif;
 }
 @media only screen and (max-width: 1200px) {
   .App {
@@ -50,4 +51,9 @@ article{
   justify-content: center;
   color: azure;
   margin-bottom: 12px;
+  font-family: 'Righteous', sans-serif;
+}
+
+.font-righteous {
+  font-family: 'Righteous', sans-serif;
 }
